@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 252" width="900" height="252" role="img" aria-label="Core Security and Engineering Domains">
+  <defs>
+    <style>
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+      .sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Card 01: Offensive & AppSec -->
+  <g transform="translate(0, 0)">
+    <rect x="0.5" y="0.5" width="441" height="118" rx="11" fill="#0D1117" stroke="#21262D" stroke-width="1"/>
+    <rect x="18" y="18" width="32" height="32" rx="7" fill="#131924" stroke="#243044" stroke-width="1"/>
+    <!-- Precision Target / Audit Icon -->
+    <circle cx="34" cy="34" r="8" fill="none" stroke="#38BDF8" stroke-width="1.5"/>
+    <circle cx="34" cy="34" r="2.5" fill="#38BDF8"/>
+    <line x1="34" y1="22" x2="34" y2="26" stroke="#38BDF8" stroke-width="1.4"/>
+    <line x1="34" y1="42" x2="34" y2="46" stroke="#38BDF8" stroke-width="1.4"/>
+    <line x1="22" y1="34" x2="26" y2="34" stroke="#38BDF8" stroke-width="1.4"/>
+    <line x1="42" y1="34" x2="46" y2="34" stroke="#38BDF8" stroke-width="1.4"/>
+
+    <text x="64" y="30" class="mono" font-size="10" fill="#6E7681" letter-spacing="1.4">01 // APPLICATION SECURITY</text>
+    <text x="64" y="48" class="sans" font-size="15" font-weight="600" fill="#F0F6FC">Web, API &amp; Auth Penetration Testing</text>
+    <text x="20" y="78" class="sans" font-size="12.5" fill="#8B949E">Vulnerability research, OWASP Top 10, JWT/session auditing,</text>
+    <text x="20" y="98" class="sans" font-size="12.5" fill="#8B949E">Row-Level Security verification, and exploit mitigation.</text>
+  </g>
+
+  <!-- Card 02: Mobile Hardening -->
+  <g transform="translate(458, 0)">
+    <rect x="0.5" y="0.5" width="441" height="118" rx="11" fill="#0D1117" stroke="#21262D" stroke-width="1"/>
+    <rect x="18" y="18" width="32" height="32" rx="7" fill="#131924" stroke="#243044" stroke-width="1"/>
+    <!-- Precision Shield Lock Icon -->
+    <path d="M34 23 L42 26.5 V34 C42 39 38.5 42.5 34 44.5 C29.5 42.5 26 39 26 34 V26.5 Z" fill="none" stroke="#38BDF8" stroke-width="1.5" stroke-linejoin="round"/>
+    <polyline points="30.8,34 33,36.2 37.5,31.5" fill="none" stroke="#38BDF8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <text x="64" y="30" class="mono" font-size="10" fill="#6E7681" letter-spacing="1.4">02 // MOBILE SECURITY</text>
+    <text x="64" y="48" class="sans" font-size="15" font-weight="600" fill="#F0F6FC">Android Anti-Tamper &amp; Kiosk Hardening</text>
+    <text x="20" y="78" class="sans" font-size="12.5" fill="#8B949E">Keystore signature pinning, server HMAC challenge-response,</text>
+    <text x="20" y="98" class="sans" font-size="12.5" fill="#8B949E">anti-VM/cloud-phone checks, R8 obfuscation, and LockTask.</text>
+  </g>
+
+  <!-- Card 03: Reverse Engineering -->
+  <g transform="translate(0, 132)">
+    <rect x="0.5" y="0.5" width="441" height="118" rx="11" fill="#0D1117" stroke="#21262D" stroke-width="1"/>
+    <rect x="18" y="18" width="32" height="32" rx="7" fill="#131924" stroke="#243044" stroke-width="1"/>
+    <!-- Precision Hex / Binary Layers Icon -->
+    <polygon points="34,24 43,29 34,34 25,29" fill="none" stroke="#38BDF8" stroke-width="1.5" stroke-linejoin="round"/>
+    <polyline points="25,34 34,39 43,34" fill="none" stroke="#38BDF8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <polyline points="25,39 34,44 43,39" fill="none" stroke="#38BDF8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <text x="64" y="30" class="mono" font-size="10" fill="#6E7681" letter-spacing="1.4">03 // REVERSE ENGINEERING</text>
+    <text x="64" y="48" class="sans" font-size="15" font-weight="600" fill="#F0F6FC">Static &amp; Dynamic Binary / APK Analysis</text>
+    <text x="20" y="78" class="sans" font-size="12.5" fill="#8B949E">DEX/Smali decompilation, runtime hooking analysis (Frida,</text>
+    <text x="20" y="98" class="sans" font-size="12.5" fill="#8B949E">LSPosed), traffic inspection, and defensive counter-measures.</text>
+  </g>
+
+  <!-- Card 04: Software Engineering -->
+  <g transform="translate(458, 132)">
+    <rect x="0.5" y="0.5" width="441" height="118" rx="11" fill="#0D1117" stroke="#21262D" stroke-width="1"/>
+    <rect x="18" y="18" width="32" height="32" rx="7" fill="#131924" stroke="#243044" stroke-width="1"/>
+    <!-- Precision Code Brackets Icon -->
+    <polyline points="30,28 24,34 30,40" fill="none" stroke="#38BDF8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <polyline points="38,28 44,34 38,40" fill="none" stroke="#38BDF8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="35.5" y1="26" x2="32.5" y2="42" stroke="#38BDF8" stroke-width="1.4" stroke-linecap="round"/>
+
+    <text x="64" y="30" class="mono" font-size="10" fill="#6E7681" letter-spacing="1.4">04 // SYSTEMS ENGINEERING</text>
+    <text x="64" y="48" class="sans" font-size="14.2" font-weight="600" fill="#F0F6FC">Full-Stack &amp; Native Systems Architecture</text>
+    <text x="20" y="78" class="sans" font-size="12.5" fill="#8B949E">End-to-end systems built with Kotlin, Next.js, TypeScript,</text>
+    <text x="20" y="98" class="sans" font-size="12.5" fill="#8B949E">PostgreSQL RPCs, Docker containers, and hardened Linux.</text>
+  </g>
+</svg>
